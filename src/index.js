@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import manageAuthorsAndBooks from './reducers/manageAuthorsAndBooks';
+import authorsReducer from './reducers/authorsReducer';
+import booksReducer from './reducers/booksReducer
 
 
 const rootReducer = combineReducers({
