@@ -4,7 +4,7 @@ import App from './App';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import authorsReducer from './reducers/authorsReducer';
-import booksReducer from './reducers/booksReducer
+import booksReducer from './reducers/booksReducer;
 
 
 const rootReducer = combineReducers({
